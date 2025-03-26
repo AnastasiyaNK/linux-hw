@@ -1,0 +1,16 @@
+  238  git pull origin main --rebase
+  239  git rebase --continue
+  240  git push origin main
+  241  git checkout -b feature
+  242  nano README.md
+  243  nano .gitignore
+  244  git add .
+  245  git commit -m "update README.md ,replace settings in .gitignoer file to work with react"
+  246  git checkout main
+  247  git push origin feature
+  248  git checkout feature
+  249  git commit --amend -m "Added README and updated .gitignore [amend]"
+  250  git push --force origin feature
+  251  git checkout main
+  252  git merge feature
+  253  git push origin main

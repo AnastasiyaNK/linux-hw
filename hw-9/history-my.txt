@@ -1,0 +1,5 @@
+   0 nano myfirstbashscript.sh
+   1 chmod 744 myfirstbashscript.sh
+   2 ls -l
+   3 ./myfirstbashscript.sh
+   4 history > /tmp/history.txt && export_file /tmp/history.txt
