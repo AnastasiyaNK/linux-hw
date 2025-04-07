@@ -1,0 +1,980 @@
+    1  cd /opt/131224-wdm
+    2  touch ping_checker.sh
+    3  nano ping_checker.sh
+    4  chmod +x ping_checker.sh
+    5  ./ping_checker.sh 
+    6  history
+    7  ~/.bash_history
+    8  > ~/.bash_history
+    9  history
+   10  exit
+   11  mkdir -p /opt/random_files
+   12  mkdir -p /opt/even_files
+   13  for i in {1..100}; do     touch "/opt/random_files/$RANDOM"; done
+   14  nano move_even_files.sh
+   15  chmod +x move_even_files.sh
+   16  ./move_even_files.sh
+   17  nano /opt/move_even_files.sh
+   18  cd /opt/131224-wdm/NikIst/
+   19  mkdir -p HW20
+   20  mkdir -p dir1 dir2
+   21  ls
+   22  mv dir1 HW20
+   23  mv dir2 HW20
+   24  ls
+   25  cd HW20
+   26  ls
+   27  cd dir1
+   28  for i in {1..100}; do touch "$RANDOM"; done
+   29  ls
+   30  nano files_mover.sh
+   31  chmod 744 files_mover.sh 
+   32  ls -la
+   33  ./files_mover.sh 
+   34  nano files_mover.sh 
+   35  ./files_mover.sh 
+   36  nano files_mover.sh 
+   37  ./files_mover.sh 
+   38  nano files_mover.sh 
+   39  ./files_mover.sh 
+   40  ls
+   41  cd ..
+   42  cd dir2
+   43  ls
+   44  cd .. && cd dir1
+   45  ls
+   46  cat files_mover.sh 
+   47  ls
+   48  cd //
+   49  cd 
+   50  cd /opt/131224-wdm/NikIst/
+   51  ls
+   52  cat file.txt
+   53  rm -f file.txt 
+   54  ls
+   55  cat text.txt
+   56  rm -f text.txt 
+   57  ls
+   58  exut
+   59  exit
+   60  cd /opt/131224-wdm/
+   61  cd NikIst/
+   62  cd HW20
+   63  cd dir1
+   64  pwd
+   65  cd /opt/240125-wde/cri
+   66  cd /opt/240125-wde/cristina_buga/
+   67  mkdir git_intro
+   68  cd git_intro
+   69  git init
+   70  cp ~/desktop/flowers.jpg ~/git_intro/
+   71  ls - /Desktop
+   72  cd /opt/131224-wdm/normanfolder
+   73  ls -la
+   74  cd opt
+   75  pwd -W
+   76  pwd
+   77  mkdir -p dir1 dir2
+   78  ls -la
+   79  cd /opt/dir1 && for i in {1..100}; do touch "$RANDOM"; done
+   80  cd opt/dir1
+   81  ls -la
+   82  cd dir1
+   83  ls -la
+   84  ls | wc -l
+   85  ls
+   86  la -la
+   87  q
+   88  ls -la
+   89  pwd
+   90  cd .
+   91  pwd
+   92  cd ..
+   93  pwd
+   94  ls -la
+   95  cd dir1
+   96  pwd
+   97  for i in {1..100}; do   touch "$RANDOM"; done
+   98  ls -la
+   99  ls |wc -1
+  100  ls | ws -l
+  101  ls | wc -l
+  102  nano move_files.sh
+  103  ls -la
+  104  chmod +x move_files.sh
+  105  ls -la
+  106  move_files.sh
+  107  ./move_files.sh
+  108  ls -1 /opt/dir1
+  109  pwd
+  110  nano move_files.sh
+  111  ls -la
+  112  ./move_files.sh
+  113  ls -la /opt/131224-wdm/normanfolder/opt/dir2
+  114  wwdwd
+  115  cd /opt/131224-wdm/normanfolder/opt/dir2
+  116  cd /opt/131224-wdm/normanfolder/opt/dir1
+  117  cd ..
+  118  cd dir1
+  119  cd dir2
+  120  ls -la
+  121  ls -al /root 2>/dev/null
+  122  ls -al /root
+  123  man awk
+  124  exit
+  125  top
+  126  ls -al  /root  2>/dev/null
+  127  cd /opt/240125-wde/cristina_buga/
+  128  mkdir git_intro
+  129  clear
+  130  cd
+  131  mkdir git_intro
+  132  cd git_intro
+  133  git init
+  134  cp /git_intro/flowers.jpg /git_intro/
+  135  cp /Desktop/git_intro/flowers.jpg /git_intro/
+  136  ls /Desktop
+  137  find -name "flowers.jpg"
+  138  ls /git_intro
+  139  ls -l git_intro
+  140  cd /opt/131224-wdm/nastyaKo/
+  141  nano creatFiles.sh
+  142  chmod 744 creatFiles.sh 
+  143  ./creatFiles.sh 
+  144  ls random_files/
+  145  nano moveFiles.sh
+  146  chmod 744 moveFiles.sh 
+  147  ./moveFiles.sh 
+  148  ls /opt/131224-wdm/nastyaKo/even_files/
+  149  nano moveFiles.sh
+  150  ls /opt/131224-wdm/nastyaKo/even_files/
+  151  ls
+  152  cd even_files/
+  153  ls
+  154  cd ..
+  155  nano moveFiles.sh
+  156  ./moveFiles.sh 
+  157  nano moveFiles.sh
+  158  ./moveFiles.sh 
+  159  nano moveFiles.sh
+  160  ls random_files/
+  161  ls even_files/
+  162  ./moveFiles.sh 
+  163  nano moveFiles.sh
+  164  rm moveFiles.sh 
+  165  ls
+  166  nano mvEvenFiles.sh
+  167  chmod 744 mvEvenFiles.sh 
+  168  ./mvEvenFiles.sh 
+  169  ls  random_files/
+  170  nano mvEvenFiles.sh
+  171  ./mvEvenFiles.sh 
+  172  nano mvEvenFiles.sh
+  173  ./mvEvenFiles.sh 
+  174  ls even_files/
+  175  exit
+  176  mkdir ~/ArtemKorzhanov
+  177  cd ~/ArtemKorzhanov
+  178  nano task_ArtemKorzhanov
+  179  chmof +x task_ArtemKorzhanov.sh
+  180  chmod +x task_ArtemKorzhnov.sh
+  181  chmod +x task_ArtemKorzhanov.sh
+  182  pwd
+  183  ls -l
+  184  chmod +x task_ArtemKorzhanov.sh
+  185  mv task_ArtemKorzhanov task_ArtemKorzhanov.sh
+  186  ls -l
+  187  chmod +x task_ArtemKorzhanov.sh
+  188  ./task_ArtemKorzhanov.sh
+  189  ls -l
+  190  nano task_ArtemKorzhanov.sh
+  191  echo "Содержимое скрипта task_ArtemKorzhanov.sh:" >> history.txt
+  192  cat task_ArtemKorzhanov.sh >> history.txt
+  193  tar -tvf archive.tar
+  194  history > history.txt
+  195  scp ec2-user@ip-адрес-сервера:~/ArtemKorzhanov/archive.tar /c/Users/ВашеИмя/Downloads/
+  196  scp ec2-user@ip-10-0-42-153:~/ArtemKorzhanov/archive.tar /c/Users/ArtemKorzhanov/Downloads/
+  197  1  ls
+  198  2  nano task_ArtemKorzhanov.sh
+  199  3  chmod +x task_ArtemKorzhanov.sh
+  200  4  ./task_ArtemKorzhanov.sh
+  201  5  history > history.txt
+  202  ls
+  203  cd /opt/091224-ptm/Yaromyr
+  204  ls
+  205  nano task_Yaromyr.sh
+  206  crontab -e
+  207  ls
+  208  crontab -e
+  209  cd /opt/131224-wdm/nastyaKo/
+  210  src creatFiles.sh ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh .
+  211  scp creatFiles.sh ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh .
+  212  src creatFiles.sh ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/ .
+  213  scp creatFiles.sh ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/ .
+  214  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh .
+  215  pwd
+  216  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh /c/Users/anast/Desktop/HW20
+  217  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh .
+  218  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh /c/Users/anast/Desktop/HW20
+  219  scp creatFiles.sh /c/Users/anast/Desktop/HW20
+  220  ls
+  221  ls -l
+  222  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh ~/Downloads/ 
+  223  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh ./creatFile.sh
+  224  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh /c/Users/anast/Desktop/HW20
+  225  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/nastyaKo/creatFiles.sh /c/Users/anast/Desktop/HW20/creatFile.sh
+  226  св
+  227  cd ..
+  228  ls
+  229  cd
+  230  find -name "creatFile*"
+  231  find / -name "creatFile*"
+  232  cd /opt/131224-wdm/nastyaKo/
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd vladyslav/
+  237  ls
+  238  cd
+  239  cd /opt/131224-wdm/nastyaKo/
+  240  cat /opt/131224-wdm/vladyslav/ping.sh 
+  241  nano ping.sh
+  242  chmod 744 ping.sh 
+  243  ./ping.sh 
+  244  nano ping.sh
+  245  ./ping.sh 
+  246  nano ping.sh
+  247  exit
+  248  cd /opt/131224-wdm/nastyaKo/
+  249  ./ping.sh 
+  250  exit
+  251  rm -rf /opt/chumak/Final.tar.gz 
+  252  cd /opt/131224-wdm/nastyaKo/
+  253  ./ping.sh 
+  254  nano ping.sh
+  255  exit
+  256  cd /opt/240125-wde/cristina_buga/
+  257  find /opt -name "*.sh"
+  258  find /opt -name 1.sh
+  259  find / -type d -name "opt"
+  260  find / -type d -name "opt" 2</dev/null
+  261  find / -type f -name "*.txt" -size +1M 
+  262  find / -type f -name "*.txt" -size +1M  2>/dev/null
+  263  find / -type f -name "*.txt" -mtime -5
+  264  mkdir/home/Artem Korzhanov/ArtemKorzhanov
+  265  chmod +x
+  266  export ANDREW_WARIABLE="240125-wde"
+  267  mkdir -p /opt/240125-wde/Kateryna_Stepanenko
+  268  touch /opt/240125-wde/Kateryna_Stepanenko/.process_menegement
+  269  date >> /opt/240125-wde/Kateryna_Stepanenko/.process_menegement
+  270  echo "welcome to Amazon server" >> /opt/240125-wde/Kateryna_Stepanenko/.process_menegement
+  271  free -h>>
+  272  free -h>> /opt/240125-wde/Kateryna_Stepanenko/.process_menegement
+  273  ps -U root --no-headers|wc -|>>/opt//240125-wde/Kateryna_Stepanenko/.process_menegement
+  274  echo "ANDREW_VARIABLE=$ANDREW_VARIABLE" >> /opt//240125-wde/Kateryna_Stepanenko/.process_menegement
+  275  ps -ef | grep "[s]shd -D" | awk '{print "PID " $2 " PPID " $3}' >> /opt//240125-wde/Kateryna_Stepanenko/.process_menegement
+  276  echo $ANDREW_VARIABLE
+  277  echo $ANDREW_WARIABLE
+  278   echo "ANDREW_WARIABLE=$ANDREW_WARIABLE" >> /opt//240125-wde/Kateryna_Stepanenko/.process_menegement
+  279  ps -ef | grep "[s]shd -D" | awk '{print "PID " $2 " PPID " $3}' >> /opt//240125-wde/Kateryna_Stepanenko/.process_menegement
+  280  ls -la /opt/240125-wde/Kateryna_Stepanenko
+  281  cat /opt/240125-wde/Kateryna_Stepanenko.process_menegement
+  282  cat /opt/240125-wde/Kateryna_Stepanenko/.process_menegement
+  283  free -h
+  284  sshd -D
+  285  history
+  286  sudo yum update
+  287  ls
+  288  cd opt
+  289  cd ..
+  290  ls
+  291  cd ..
+  292  sd opt/
+  293  ls
+  294  sd opt/
+  295  cd opt/
+  296  ls
+  297  cd 041124-wde/
+  298  ls
+  299  cd /opt/240125-wde/cristina_buga/
+  300  locate *.txt
+  301  find /tmp -type f -name "*.txt" -delete
+  302  nano 2.sh
+  303  ls
+  304  ls -l
+  305  chmod u+x 2.sh
+  306  ./2.sh
+  307  nano 2.sh
+  308  ./2.sh
+  309  nano 2.sh
+  310  ./2.sh
+  311  ls -l
+  312  touch myfirstbashscript.sh
+  313  chmod +x myfirstbashscript.sh 
+  314  USER="Cristina_Buga"
+  315  nano myfirstbashscript.sh 
+  316  ./myfirstbashscript.sh 
+  317  ./myfirstbashscript.sh > hw.txt
+  318  ls -l hw.txt
+  319  nano myfirstbashscript.sh 
+  320  ls -l myfirstbashscript.sh 
+  321  ls -l
+  322  cd /opt/131224-wdm/rechyn/
+  323  ls -la
+  324  cd dir_1
+  325  ls -la
+  326  pwd
+  327  .
+  328  cd ..
+  329  cd dir_1
+  330  ls -la
+  331  cd /opt/131224-wdm/rechyn/dir_2
+  332  ls -la
+  333  cd /opt/131224-wdm/rechyn/
+  334  ls -la
+  335  mkdir dir_1 dir_2
+  336  ls -la
+  337  nano script_dir1
+  338  chmod script_dir1 
+  339  chmod 744 script_dir1 
+  340  .script_dir1
+  341  bash script_dir1
+  342  mv script_dir1 script_dir1.sh
+  343  ls -la
+  344  cat script_dir1.sh 
+  345  nano script_dir2.sh
+  346  chmod 744 script_dir2 
+  347  chmod 744 script_dir2.sh
+  348  .script_dir2.sh
+  349  bash script_dir2.sh
+  350  nano script_dir2.sh
+  351  bash script_dir2.sh
+  352  cat script_dir1.sh
+  353  cat script_dir2.sh
+  354  exit
+  355  find / -iname '*.txt' 2>/dev/null
+  356  cd
+  357  find /opt -iname 'file.txt' 2>/dev/null
+  358  find /opt -type f -iname "*.sh" 2>/dev/null
+  359  find /opt -type -iname "*.txt" -size +2M
+  360  find /opt -type f -iname "*.txt" -size +2M
+  361  find /opt -type f -iname "*.txt" -size +2M -mtime +5
+  362  find /opt -type f -iname "*.txt" -size +2M -mtime +5 2>/dev/null
+  363  nano move_even_files.sh
+  364  find /opt -iname "file.txt"
+  365  find /opt -iname "file.txt" 2>/dev/null
+  366  find /opt -iname "file.txt" -size +2M 2>/dev/null
+  367  find /opt -iname "file.txt" -size +2M -mtime +5 2>/dev/null
+  368  cd 21_03/
+  369  ls
+  370  cd
+  371  ls
+  372  feind / -type d -naim Roman
+  373  fend / -type d -name "Roman"
+  374  ls
+  375  cd
+  376  cd /opt/
+  377  ls
+  378  cd 210225-ptm/
+  379  ls
+  380  cd Roman/
+  381  ls
+  382  nano .Roman.txt
+  383  cd /opt/210225-ptm/Pankow
+  384  nano Pankow04.04.sh
+  385  ls
+  386  nano Pankow04.04.sh
+  387  find /opt -name file.txt
+  388  find /opt -iname "file".txt
+  389  find /opt -iname file.txt
+  390  find /opt -iname '*_file'.txt
+  391  find /opt -iname '*_file'.txt 2>/dev/null
+  392  find /opt -type f -iname '*_file'.txt 2>/dev/null
+  393  find /opt -type d -iname '*_file'.txt 2>/dev/null
+  394  find /opt -type d -iname '*.sh' 2>/dev/null
+  395  find /opt -type f -iname '*.sh' 
+  396  find --h
+  397  find --help
+  398  cd /opt/210225-ptm/platonova/
+  399  nano test.sh
+  400  nano 0404.sh
+  401  ls
+  402  ./0404.sh
+  403  chmod 644 ./0404.sh
+  404  ls -l
+  405  chmod 744 ./0404.sh
+  406  ls -l
+  407  ./0404.sh 
+  408  nano 0404.sh
+  409  ./0404.sh 
+  410  nano 0404.sh
+  411  ./0404.sh 
+  412  tree
+  413  exit
+  414  find /opt -name "file.txt"
+  415  find /opt -name "file.txt" 2>/dev/null
+  416  find /opt -type f -iname "*.sh" 2>/dev/null
+  417  nano 0404.sh
+  418  cd /opt/210220-ptm/schwab
+  419  cd /opt/210225-ptm/schwab
+  420  nano 0404.sh
+  421  ./0404.sh
+  422  chmod 744 0404.sh
+  423  ./0404.sh
+  424  nano 0404.sh
+  425  ./0404.sh
+  426  nano 0404.sh
+  427  ./0404.sh
+  428  tree /opt/210225-ptm/schwab
+  429  exit
+  430  cd
+  431  find /opt -type f -iname "*.txt -size +2M 2>/dev/null
+  432  ls -la
+  433  exit
+  434  sudo cd
+  435  exit
+  436  find /opt -type f -iname "*.txt" -size +2M 2>/dev/null
+  437  ls -la
+  438  exit
+  439  sudo cd
+  440  exit
+  441  bash script_dir2.sh
+  442  find /opt -type f -iname "*.txt" -size +2M 2>/dev/null
+  443  nano new.file
+  444  chmod 744 new.file.sh
+  445  chmod 744 new.file
+  446  ./new.file
+  447  nano new.file
+  448  tree /0pt/ruslan2/new.file
+  449  tree /opt/ruslan2/new.file
+  450  nano new.file
+  451  tree /opt/210225-ptm/ruslan
+  452  chmod 744 new.file
+  453  ./new.file
+  454  ls -la /opt/ruslan
+  455  tree /opt
+  456  exit
+  457  nano 0404.sh
+  458  chmod 744 0404.sh
+  459  cd /opt/210225-ptm/Anastasiia/
+  460  chmod 744 0404.sh
+  461  cd
+  462  nano 0404.sh
+  463  ./0404.sh
+  464  nano 0404.sh
+  465  ./0404.sh
+  466  exit
+  467  cd /opt/210225-ptm
+  468  ls
+  469  cd daniil
+  470  nano scen.sh
+  471  chmod 744 scen.sh
+  472  ./scen.sh
+  473  nano scen.sh
+  474  ./scen.sh
+  475  nano scen.sh
+  476  ./scen.sh
+  477  ls 
+  478  tree
+  479  exit
+  480  nano
+  481  cd
+  482  ls -l /opt/210225-ptm/lebedieva/
+  483  cd /opt/210225-ptm/lebedieva
+  484  chmod 744 0404.sh
+  485  ./0404.sh
+  486  nano 0404.sh
+  487  find /opt -iname 'File.txt'
+  488  find /opt -name 'File.txt'
+  489  find /opt -name 'File.txt' 2>/dev/null
+  490  find /opt -iname 'File.txt' 2>/dev/null
+  491  find /opt -type f -iname '*.sh' 2>/dev/null
+  492  find /opt -type f -iname '*.sh' -size +2M 2>/dev/null
+  493  find /opt -type f -iname '*.txt' -size +2M 2>/dev/null
+  494  find /opt -type f -iname '*.txt' -size +2M -mtime +5 2>/dev/null
+  495  cd /opt/chumak
+  496  ls
+  497  updatedb
+  498  cd ..
+  499  cd 210225-ptm/vadym/
+  500  nano 0404.sh
+  501  chmod 744 0404.sh
+  502  0404.sh
+  503  cat 0404.sh
+  504  ./0404.sh
+  505  cd
+  506  find  find
+  507  find / -type d -name "*Yevhen*" 2>/dev/null
+  508  /opt/210225-ptm/Yevhen
+  509  cd /opt/210225-ptm/Yevhen
+  510  nano 0404.sh
+  511  chmod 744 0404.sh
+  512  ./0404.sh
+  513  nano 0404.sh
+  514  ./0404.sh
+  515  nano 0404.sh
+  516  ./0404.sh
+  517  tree /opt/Yevhen2
+  518  help
+  519  find 
+  520  locate
+  521  find /opt -iname "file.txt"
+  522  find / -type d -name "xhumanalex"
+  523  cd /opt/210225-ptm/xhumanalex
+  524  nano
+  525  cd
+  526  ls
+  527  cd /opt/xhumanalex
+  528  cd /opt
+  529  cd xhumanalex
+  530  tree
+  531  ls
+  532   cd /opt/210225-ptm/xhumanalex
+  533  ls
+  534  nano april4.txt
+  535  .april4.txt
+  536  tree
+  537  ./april4.txt
+  538  chmod 744
+  539  chmod 744 april4.txt
+  540  ./april.txt
+  541  ./april4.txt
+  542  nano april4.txt
+  543  ./april4.txt
+  544  nano april4.txt
+  545  ./april.txt
+  546  nano april4.txt
+  547  ./april4.txt
+  548  cd 21025-ptm
+  549  cd /opt/210225-ptm
+  550  ls
+  551  cd xhumanalex
+  552  ls
+  553  nano april4.txt
+  554  ./april4.txt
+  555  nano april4.txt
+  556  ./april4.txt
+  557  ls -l
+  558  find /opt - name
+  559  find /opt - iname "file.txt" 
+  560  find /opt - iname "file.txt" 2>/dev/null
+  561  find /opt -type d
+  562  find /opt -type f
+  563  find /-type -date OL
+  564  find /opt - iname OLE
+  565  find /opt - iname OLEKSA
+  566  cd /opt/210225-ptm/OLEKSANDR_P/
+  567  nano 040425.txt
+  568  cmod 744 040425.txt
+  569  chmod 744 040425.txt
+  570  ls -l
+  571  ./040425.txt 
+  572  nano 040425.txt
+  573  ./040425.txt 
+  574  mv 040425.txt 040425.sh
+  575  ls -l
+  576  nano 040425.txt
+  577  nano 040425.sh
+  578  ./040425.sh
+  579  nano 040425.sh
+  580  ls
+  581  nano 040425.sh
+  582  ./040425.sh
+  583  nano 040425.sh
+  584  ./040425.sh
+  585  while true; do echo "Alive" && sleep 1;done
+  586  ls -l
+  587  nano myfirstbashscript.sh 
+  588  nano move_even_files.sh 
+  589  find /opt -iname "file.txt" 
+  590  find /opt -iname "file.txt" 2>/dev/null
+  591  find /opt -iname file.txt 2>/dev/null
+  592  find /opt -type f -iname "*.sh" 2>/dev/null
+  593  find /opt -type f -iname "*.txt" -size +2M 2>/dev/null
+  594  cat /opt/091224-ptm/VAndreev/error_report.txt
+  595  find /opt -type f -iname "*.txt" -size +2M -mtime +5 2>/dev/null
+  596  find /opt -type f "*.txt"
+  597  cd /opt/chumak/
+  598  ls
+  599  echo "hello" > file (5).txt
+  600  echo "hello" > "file (5).txt"
+  601  ls -l
+  602  echo "hello" > file(5).txt
+  603  cat file\ \(5\).txt 
+  604  updatedb
+  605  sudo updatedb
+  606  locate file.txt
+  607  locate -r '/opt/*\.txt$' 
+  608  locate -r /opt/*\.txt$ 
+  609  locate -r /opt/*\.txt
+  610  locate -r /opt/.txt
+  611  locate -r /opt/*.txt
+  612  top
+  613  find / -iname "*.txt" 2>/dev/null
+  614  nano 0404.sh
+  615  ./0404.sh
+  616  chmod 744 0404.sh 
+  617  ./0404.sh
+  618  nano 0404.sh
+  619  ./0404.sh
+  620  nano 0404.s
+  621  nano 0404.sh
+  622  ./0404.sh
+  623  tree /opt
+  624  tree /opt/chumл2
+  625  tree /opt/chumak2
+  626  while true; do echo "Alive" && sleep 1;done
+  627  cd /opt/210225-ptm/vadym/
+  628  ls
+  629  cd vadym2/
+  630  ls
+  631  cd ..
+  632  nano 0404.sh 
+  633  ./0404.sh 
+  634  ls test/ -la
+  635  nano 0404.sh 
+  636  ./0404.sh 
+  637  ls test/ -la
+  638  pc
+  639  pc aux
+  640  pc help
+  641  pwd
+  642  top
+  643  exit
+  644  --user
+  645  aws --user
+  646  aws --whiaim
+  647  aws --whoaim
+  648  whoaim
+  649  whoim
+  650  whoami
+  651  stsget-caller-identity --profile
+  652  sts get-caller-identity --profile
+  653  aws sts get-caller-identity --profile
+  654  aws sts get-caller-identity
+  655  exit
+  656  find /opt -iname "File.txt"
+  657  find /opt -type f -iname "*.sh" > 2> /dev/null
+  658  find /opt -type f -iname "*.txt" -size +2M 2 > /dev/null
+  659  find /opt -type f -iname "*.txt" -size +2M 2>/dev/null
+  660  cd /opt/091224-ptm/VAndreev/error_report.txt
+  661  cd /opt/210225-ptm/mark
+  662  nano 0404_25.sh
+  663  chmod 744 0404_25.sh
+  664  ./0404_25.sh
+  665  nano /0404_25.sh
+  666  nano 0404_25.sh
+  667  ./0404_25.sh
+  668  tree /opt/210225-ptm/mark
+  669  nano 0404_25.sh
+  670  ./0404_25.sh
+  671  nano 0404_25.sh
+  672  cd /opt/210225-ptm/OLEKSANDR_P/
+  673  ls
+  674  find /path/to/search -name '*.txt'
+  675  find /-name .txt
+  676  find -name .txt
+  677  find /opt/210225-ptm/OLEKSANDR_P -name .txt
+  678  find /opt -iname 7
+  679  find /opt -name 7
+  680  find /opt -iname .txt
+  681  cd
+  682  find /opt -iname .txt
+  683  find /opt -iname file.txt
+  684  find /opt -iname 7.txt
+  685  find /opt -iname 7
+  686  find /opt -type f 7
+  687  find /opt -type f 
+  688  find /opt -iname 7.txt
+  689  cd /opt/210225-ptm/OLEKSANDR_P/
+  690  nano 040425.sh 
+  691  pwd
+  692  cd /irinamaier
+  693  cd irinamaier
+  694  cd /opt/131224-wdm/irinamaier
+  695  sudo mkdir -p /opt/dir1 /opt/dir2
+  696  for i in {1..100}; do
+  697  $ for i in {1..100}; do touch /opt/dir1/$(($RANDOM)).txt; done
+  698  nano script_file.sh
+  699  chmod +x script_file.sh
+  700  ./script_file.sh
+  701  cd /opt/131224-wdm/irinamaier
+  702  mkdir files_source files_destination
+  703  cd /opt/my_user_folder/files_source 
+  704  cd /opt/irinamaier/my_user_folder/files_source 
+  705  for i in {1..100}; do touch $RANDOM; done
+  706  ls | wc -l
+  707  nano /opt/my_user_folder/move_even_files.sh
+  708  pwd
+  709  ls -l /opt
+  710  /opt/131224-wdm/irinamaier
+  711  mkdir -p /opt/131224-wdm/irinamaier/files_source
+  712  mkdir -p /opt/131224-wdm/irinamaier/files_destination
+  713  ls /opt/131224-wdm/irinamaier
+  714  cd /opt/131224-wdm/irinamaier/files_source
+  715  for i in {1..100}; do touch $RANDOM; done
+  716  ls | wc -l
+  717  nano /opt/131224-wdm/irinamaier/move_even_files.sh
+  718  chmod +x /opt/131224-wdm/irinamaier/move_even_files.sh 
+  719  /opt/131224-wdm/irinamaier/move_even_files.sh 
+  720  ls /opt/131224-wdm/irinamaier/files_destination/
+  721  ls /opt/131224-wdm/irinamaier/files_source
+  722  mkdir ~/Artem
+  723  cd ~/Artem
+  724  nano task_Artem.sh
+  725  chmod +x task_Artem.sh
+  726  export EDITOR=nano
+  727  crontab -e
+  728  export EDITOR=nano
+  729  chrontab -e
+  730  crontab -e
+  731  crontab -l
+  732  history > history.txt
+  733  tar -czvf files_and_history.tar.gz *_$(date +"%d.%m.%y") history.txt
+  734  ды
+  735  ls
+  736  tar -czvf files_and_history.tar.gz [0-9]_*. history.txt
+  737  ./task_Artem.sh
+  738  ls
+  739  tar -czvf files_and_history.tar.gz *_05.04.25 history.txt
+  740  history > history.txt
+  741  scp ec2-user@ip-10-0-42-153:/home/ec2-user/Artem/history.txt /путь/к/локальной/папке/
+  742  nano task_Artem.sh
+  743  nano sleeper.sh
+  744  chmod +x sleeper.sh
+  745  ./sleeper.sh
+  746  nano sleeper.sh
+  747  git init
+  748  exit
+  749  cd /opl/210225-ptm/lebedieva
+  750  ls -l /opt/210225-ptm
+  751  pwd
+  752  df -h
+  753  cat /home/ec2-user/dev/xvda1
+  754  free -m
+  755  exit
+  756  $RANDOM
+  757  env
+  758  echo $RANDOM
+  759  # Например: 23489
+  760  echo $RANDOM
+  761  # Например: 23489
+  762  echo $RANDOM
+  763  cd /opt/131224-wdm/Viktor/
+  764  mkdir random-file
+  765  mkdir even-file
+  766  cd random-file/
+  767  vi random-create.txt
+  768  ./random-create.txt
+  769  ./ random-create.txt
+  770  bash random-create.txt
+  771  ls -la
+  772  ../
+  773  cd ..
+  774  cd random-file/
+  775  chmod +x random-create.txt
+  776  ls -la
+  777  cd ..
+  778  ls -la
+  779  vi move_even.txt
+  780  cd /opt/131224-wdm/Viktor/
+  781  vi move_even.txt
+  782  cd /opt/131224-wdm/Viktor/
+  783  vi move_even.txt
+  784  chmod +x move_even.txt 
+  785  ./ move_even.txt 
+  786  ls -la
+  787  ./move_even.txt 
+  788  vi move_even.txt
+  789  ./move_even.txt 
+  790  vi move_even.txt
+  791  ./move_even.txt 
+  792  vi move_even.txt
+  793  ./move_even.txt 
+  794  cd even-file/
+  795  ls -la
+  796  cd ..
+  797  cd random-file/
+  798  ls -la
+  799  vi move_even.txt
+  800  /opt/131224-wdm/koriahin-serhii/
+  801  ls -la
+  802  cd /opt/131224-wdm/koriahin-serhii/
+  803  ls -la
+  804  mkdir -b hw20_1 hw20_2
+  805  mkdir hw20_1 hw20_2
+  806  ls -la
+  807  cd hw20_1
+  808  for i in {1..100}; do touch "$RANDOM"; done
+  809  ls -la
+  810  nano move_files.sh
+  811  ls -la
+  812  chmod 744 move_files.sh 
+  813  ./move_files.sh 
+  814  nano move_files.sh 
+  815  cd .
+  816  cd ..
+  817  cd hw20_2
+  818  ls -la
+  819  cd ..
+  820  cd hw20_1
+  821  ls -la
+  822  ./move_files.sh 
+  823  nano move_files.sh 
+  824  mv move_files.sh /opt/131224-wdm/koriahin-serhii/hw20_2
+  825  ls -la
+  826  cd ..
+  827  cd hw20_2
+  828  ls-la
+  829  ls -la
+  830  cd ..
+  831  cd hw20_1
+  832  ls -la
+  833  cd ..
+  834  mkdir hw20_3
+  835  cd hw20_2
+  836  nano move_files.sh 
+  837  ./move_files.sh 
+  838  cd ..
+  839  cd hw20_3
+  840  ls-la
+  841  ls -la
+  842  cd ..
+  843  ls -la
+  844  cd hw20_2
+  845  ls -la
+  846  nano move_files.sh 
+  847  ./move_files.sh 
+  848  cd ..
+  849  cd hw20_3
+  850  ls -la
+  851  nano move_files.sh 
+  852  ls -la
+  853  cd ..
+  854  cd hw20_2
+  855  ls -la
+  856  nano move_files.sh 
+  857  ./move_files.sh 
+  858  cd ..
+  859  cd hw20_3
+  860  ls -la
+  861  cd ..
+  862  cd hw20_1
+  863  ls -la
+  864  cd ..
+  865  cd hw20_2
+  866  ls -la
+  867  mv move_files.sh /opt/131224-wdm/koriahin-serhii/hw20_3
+  868  cd ..
+  869  cd hw2-_3
+  870  cd hw20_3
+  871  ls -la
+  872  nano move_files.sh 
+  873  ./move_files.sh 
+  874  ls -la
+  875  pwd
+  876  history
+  877  ls -lah /opt/091224-ptm
+  878  export ANDREW_VARIABLE=GroupA
+  879  cd /opt/GroupA
+  880  touch .ALEXANDER/process_management
+  881  sudo mkdir -p /opt/GroupA/.ALEXANDER
+  882  cd /opt/GroupA/.ALEXANDER
+  883  touch process_management
+  884  ды -ыд
+  885  ls -al
+  886  ls -a
+  887  env | grep ANDREW_VARIABLE >> /opt/GroupA/.ALEXANDER/process_management
+  888  free -h | grep Mem >> /opt/GroupA/.ALEXANDER/process_management
+  889  date > /opt/GroupA/.ALEXANDER/process_management
+  890  ouch .ALEXANDER/process_management
+  891  echo "Welcome to Amazon server" >> /opt/GroupA/.ALEXANDER/process_management
+  892  ls -ld /opt/GroupA/.ALEXANDER
+  893  sudo chmod u+w /opt/GroupA/.ALEXANDER
+  894  touch /opt/GroupA/ALEXANDER/.process_management
+  895  sudo mkdir -p /opt/GroupA/ALEXANDER
+  896  touch /opt/GroupA/ALEXANDER/.process_management
+  897  ps -u root | wc -l >> /opt/GroupA/ALEXANDER/.process_management
+  898  free -h | grep Mem >> /opt/GroupA/ALEXANDER/.process_management
+  899  env | grep ALEXANDER_VARIABLE >> /opt/GroupA/ALEXANDER/.process_managemen
+  900  ps -C sshd -o pid= -o ppid= >> /opt/GroupA/ALEXANDER/.process_management
+  901  cat /opt/GroupA/ALEXANDER/.process_management
+  902  ls -al
+  903  ls -lah /opt/091224-ptm
+  904  echo "Welcome to Amazon server" >> /opt/GroupA/ALEXANDER/.process_management
+  905  exit
+  906  mkdir -p /opt/korzhanovartem/dir1 /opt/korzhanovartem/dir2
+  907  for i in {1...100}; do touch /opt/korzhanovartem/dir1/$RANDOM; done
+  908  nano move_even_files.sh
+  909  chmod +x move_even_files.sh
+  910  ./move_even_files.sh
+  911  cd opt
+  912  cd /opt
+  913  find xhumanalex
+  914  cd /210225-ptm
+  915  tree
+  916  cd /opt/210225-ptm
+  917  tree
+  918  cd xhumanalex
+  919  cd /tmp
+  920  ls
+  921  nano file.txt
+  922  ls
+  923  ls-a
+  924  ls -a
+  925  nano file.txt
+  926  nano fle.txt
+  927  la
+  928  ls
+  929  df -h | head -n 3 >> /tmp/file.txt
+  930  nano file.txt
+  931  chmode g+wx /tmp/file.txt
+  932  chmod g+wx /tmp/file.txt
+  933  ls -l /tmp/file.txt
+  934  chmod o-rwx /tmp/file.txt
+  935  ls -l /tmp/file.txt
+  936  cd /opt/210225-ptm/xhumanalex
+  937  touch myfirstbashscript.sh
+  938  ls
+  939  chmod +x /opt/210225-ptm/xhumanalex/myfirstbashscript.sh
+  940  nano /opt/210225-ptm/xhumanalex/myfirstbashscript.sh
+  941  nano myfirstbashscript.sh
+  942  nano myfirstbashscript.sh 
+  943  /opt/210225-ptm/xhumanalex/myfirstbashscript.sh
+  944  cat /opt/210225-ptm/xhumanalex/myfirstbashscript.sh >> /tmp/file.txt
+  945  history >> /tmp/file.txt
+  946  tail /tmp/file.txt
+  947  export_file /tmp/file.txt
+  948  scp -i ~/.ssh/id_ED25519 ec2-user@linux.itcareerhub.de:/tmp/file.txt ~/Downloads/
+  949  df -h
+  950  cd /opt
+  951  df -h
+  952  free
+  953  free -h
+  954  env | grep PATH
+  955  free -h | grep Mem 
+  956  free -h | grep Mem | awk '{print $2}'
+  957  free -h | grep Mem | awk '{print $2,$3}'
+  958  cd
+  959  ps -ef
+  960  grep -D | echo 'PID' awk '{print $2}' echo 'PPID' awk '{print $3}'
+  961  grep D
+  962  cd /opt/131224-wdm/givi
+  963  nano task_Anastasiya.sh
+  964  chmod 744 task_Anastasiya.sh
+  965  ls -la
+  966  whoami
+  967  nano task_Anastasiya.sh
+  968  cd /opt/131224-wdm/givi
+  969  history > history.txt
+  970  tar -czvf anastasiya_archive.tar.gz *_* history.txt
+  971  tar -tzvf anastasiya_archive.tar.gz
+  972  tar -tzf anastasiya_archive.tar.gz | grep history.txt
+  973  ls -l /opt/131224-wdm/givi
+  974  ./task_Anastasiya.sh
+  975  nano task_Anastasiya.sh
+  976  crontab -e
+  977  /opt/131224-wdm/givi/task_Anastasiya.sh
+  978  ls /opt/131224-wdm/givi/*_$(date +%d.%m.%y)
+  979  crontab -e
+  980  history > /opt/131224-wdm/givi/history.txt
